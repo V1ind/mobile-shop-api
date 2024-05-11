@@ -1,7 +1,6 @@
 const uuid = require("uuid");
 const path = require("path");
 const { Device, DeviceInfo } = require("../models/models");
-const { title } = require("process");
 
 class deviceController {
   async create(req, res) {

@@ -1,7 +1,8 @@
 const Router = require("express");
-const router = new Router();
 const userRouter = require("./deviceRouter");
 const deviceRouter = require("./deviceRouter");
+
+const router = new Router();
 
 router.use("/user", userRouter);
 router.use("/device", deviceRouter);
